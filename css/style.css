@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: -156px;
+}
+
+/*top styles*/
+
+
+.first-part {
+    width: 2090px;
+    height: 677px; 
+    background-color: #2D25A0;
+    margin: 0;
+    background-size: cover;
+    position: relative;
+    left: -10px;
+    
+
+}
+
+.headline {
+    display: flex;
+    margin: 156px;
+}
+
+.cup-name {
+    margin-left: 156px;
+}
+
+.cup-title {
+    color:#FFFFFF;
+    font-size: 64px;
+
+}
+
+.cup-title.first {
+    position: relative;
+    top: 120px;
+    margin-top: 0%;
+}
+
+.cup-title.second {
+    position: relative;
+    top: 60px;
+}
+
+.watch-button {
+    background-color: #E02C6D;
+    width: 168px;
+    height: 44px;
+}
+
+
+
+.link-button{
+ text-decoration: none;
+ color: #FFFFFF;
+ font-weight: 400;
+ font-size: 16px;
+ margin-left: 30px;
+ position: relative;
+ top: 10px;
+ right: 8px;
+ font-family: 'Poppins', sans-serif;
+}
+.fa-arrow-right {
+    color: #FFFFFF;
+    position: relative;
+    top: 10px;
+}
+.cup-thumbnail img {
+    width: 556.01px;
+    height: 438px;
+    margin-top: 130px;
+    margin-left: 200px;
+    transition:  2s ease-out;
+}
+
+.gunner-part {
+    margin-top: 70px;
+}
+.gunners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    left: 140px;
+}
+
+.gunner {
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-top: 27px;
+    transition:  1s ease-out;
+}
+
+.gunner:hover {
+    transform: scale(1.1);
+}
+.gunner-name {
+    font-size: 28px;
+}
+
+.gunner-image img {
+    width: 340px;
+    height: 280px;
+    margin-left: 10px;
+    position: relative;
+    right: 15px;
+}
+
+.gunner-info {
+    width: 300px;
+    height: 154px;
+    position: relative;
+    top: -20px;
+}
+
+.gunner-details {
+    width: 300px;
+    height: 104px;
+    font-size: 16px;
+    position: relative;
+    top: -30px;
+    color: #6C6C6C;
+}
+
+.first-column {
+    position: relative;
+    left: 230px;
+}
+
+.third-column {
+    position: relative;
+    right: 230px;
+}
+
+
+/* blog */
+
+.blg1{
+color: coral;
+font-size: 70px;
+text-align: center;
+padding-top: 100px;
+}
+.cont{
+    background-color: #2D25A0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+/* sksdalnsdkl */
+
+/* blog */
+
+.photo-frame{
+    width: 300px;
+    height: 168px;
+    border: 2px solid rgb(64, 73, 75);
+    border-radius: 10px;
+    position: relative;
+    margin: 20px;
+    justify-content: center;
+    overflow: hidden;
+}
+.photo img{
+    width: 100%;
+    border-radius: 15px;
+}
+.photo-detail{
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 0;
+    border-radius: 15px;
+}
+.photo-detail h3{
+    background-color: rgba(134, 255, 255, 0.609);
+    color: black;
+    text-align: center;
+}
+.photo-detail p{
+    color: rgb(36, 64, 77);
+    text-align: justify;
+}
+.photo-frame:hover .photo-detail{
+    display: block;
+    background-color: rgba(228, 228, 228, 0.548);
+    height: 168px;
+}
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-frame:hover .photo {
+    transform: scale(1.5);
+    transition: 1.2s;
+
+}
+.blg2{
+    font-size: 100px;
+    text-align: center;
+    color: #5a4eff
+}
+
+/* footerdf */
+
+     footer {
+            width: 483.87px;
+            height: 213px;
+            margin-top: 100px;
+            text-align: center;
+            position: relative;
+            left: 670px;
+        }
+        
+        footer img{
+            width: 483.87px;
+            height: 110px;
+        }
+        
+        .social-media {
+            margin-top: 20px;
+        }
+        
+        .social-media img{
+               width: 20px;
+               height: 20px;
+               margin-left: 5px;
+               position: relative;
+               left: 20px;
+               cursor: pointer;
+        }
+        
+        
+        .footer-text {
+              width: 236px;
+              height: 31px;
+              font-family: 'Poppins', sans-serif;
+              position: relative;
+              left: 145px;
+}
+@media only screen and (max-width: 360px) {
+    .first-part {
+    height: 1100px;
+    }
+    
+    .headline {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tournament-thumbnail img {
+        position: relative;
+        right: 90px;
+    }
+
+   
+
+    #Messi {
+        position: relative;
+        left: 230px;
+    }
+    #neymar {
+        position: relative;
+        left: 230px;
+    }
+    #cavani {
+        position: relative;
+        left: 230px;
+    }
+    #suarez {
+        position: relative;
+        left: 230px;
+    }
+    #diaz {
+        position: relative;
+        left: 230px;
+    }
+    #martinez {
+        position: relative;
+        left: 230px;
+    }
+    #paul {
+        position: relative;
+        left: 230px;
+    }
+    #casim {
+        position: relative;
+        left: 230px;
+    }
+    #maria {
+        position: relative;
+        left: 230px;
+    }
+
+        
+}
+
